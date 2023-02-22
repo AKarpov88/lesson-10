@@ -31,7 +31,7 @@ public class HomeTask2 {
             if (array[i] == '0' || array[i] == '1' || array[i] == '2' || array[i] == '3' || array[i] == '4'
                     || array[i] == '5' || array[i] == '6' || array[i] == '7' || array[i] == '8' || array[i] == '9') {
                 arrayWithDigits[counter] = array[i];
-                counter++;
+                counter++; // последний раз counter увеличится до длины целочисленного массива digits
             }
         }
 
